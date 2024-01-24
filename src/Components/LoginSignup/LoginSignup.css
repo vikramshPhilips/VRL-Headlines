@@ -1,0 +1,176 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    width: 700px;
+    background: #fff;
+    padding-bottom: 30px;
+    border-radius: 5%;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 30px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.text{
+    font-size: 50px;
+    color: #130cb7 ;
+    font-weight: 600;
+    font-family: cursive, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+      
+    
+}
+.underline{
+    border:#130cb7 solid 6px;
+    width: 80px;
+    border-top-right-radius: 90%;
+}
+.inputs{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    
+    
+}
+.input{
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:auto;
+    gap: 20px;
+    align-items: center;
+    width: 480px;
+    background: #eaeaee;
+    border-radius: 6px;
+    padding-right: 20px;
+    
+}
+.noinput{
+    display: None;
+}
+
+.input img{
+    margin: 0px 30px;
+    max-width: 30%;
+    height: auto;
+    
+}
+.input input{
+    height: 60px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    font-size: 19px;
+    outline: None;
+    
+}
+.forgot-password{
+    padding-left: 72px;
+    margin-top: 40px;
+    color: #797979;
+    font-size: 20px;
+
+}
+.forgot-password span{
+    color: #4c00b4;
+    cursor: pointer;
+}
+.forgot-password span:hover{
+    margin-left: 6px;
+    padding: 10px;
+    border:#130cb7 2px solid;
+   
+
+    border-radius: 10%;
+    transition-delay: 0.5s;
+    
+}
+.submit-container{
+    display: flex;
+    padding-left: 80px;
+    margin: 70px auto;
+    gap: 20px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+
+    background: #130cb7;
+    color: #eaeaee;
+    border-radius: 60px;
+    font-size: 20px;
+
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.gray{
+    background: #eaeaee;
+    color: #676767;
+
+}
+.Output{
+    font-size: x-large;
+    color: red;
+    
+
+}
+
+
+/* Warning Area  */  
+.Warning{
+    opacity: 0;
+    
+    width: .001px;
+    height: .001px;
+    
+    transition: 3s ease-in-out;
+  
+  }
+.Show{
+     margin-top: 0px;
+    border: 2px solid black;
+    background: grey;
+    margin-right:auto;
+    margin-left: 400px;
+    padding:10px;
+    width:fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    opacity: 1;
+    border-radius: 10px;
+    align-items: center;
+      
+      
+  }
+.Warning p{
+    color: white;
+    font-size: 12px;
+  }
+
+.Warning img{
+      width:40px;
+      height: auto;
+      opacity: 0.5;
+      margin-left: 20px;
+      
+  
+  }

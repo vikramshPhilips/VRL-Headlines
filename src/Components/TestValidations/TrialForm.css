@@ -1,0 +1,38 @@
+.warning{
+  opacity: 0;
+  transition: 3s ease-in-out;
+  width: fit-content;
+  height: auto;
+
+}
+.show{
+   margin-top: 5px;
+  border: 2px solid black;
+  background: grey;
+  margin-right:0px;
+  margin-left: 10px;
+  padding:10px;
+  width:fit-content;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  opacity: 1;
+  border-radius: 10px;
+  align-items: flex-end;
+    
+    
+}
+.warning p{
+  color: white;
+  font-size: 12px;
+
+
+}
+.warning img{
+    width:40px;
+    height: auto;
+    opacity: 0.5;
+    margin-left: 20px;
+    
+
+}

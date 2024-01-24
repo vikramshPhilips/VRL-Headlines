@@ -1,0 +1,26 @@
+.change-container{
+    display: block;
+    padding-left: 80px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin: 70px auto;
+    gap: 20px;
+    width: fit-content;
+    height: fit-content;
+    
+}    
+.showChange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+
+    background: #130cb7;
+    color: #eaeaee;
+    border-radius: 60px;
+    font-size: 20px;
+
+    font-weight: 600;
+    cursor: pointer;
+}

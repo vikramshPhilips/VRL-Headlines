@@ -1,0 +1,61 @@
+.Container-row {
+    display: flex;
+  }
+
+  .Container-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+.Column-card{
+    font-family: cursive, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background: linear-gradient(#0b0c10,#1f2833);
+    color: #45a29e;
+  }
+.imageHeadline{
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    align-items: left;
+    
+  }
+.headline_title_cell{
+    vertical-align: top; /* Aligns text to the top */
+    text-align: left;    /* Aligns text to the left */
+    min-width: auto;
+  min-height: auto;
+  max-width: 200px;  /* Set a maximum width if needed */
+  max-height: 100px; /* Set a maximum height if needed */
+   color:#66fcf1
+}
+.headline_title{
+     
+     font-size: 14px;
+     padding-left: 8px;
+     /*   This ensure that text wrap new line*/
+     white-space: normal;
+     max-width: 200px;
+
+}
+.author{
+    vertical-align: right;
+    text-align: right;
+}
+.author, .publishtime, .source, .brief{
+    font-size: 12px;
+    white-space: normal;
+     max-width: 200px;
+
+   
+}
+.publishtime, .source, .brief{
+    padding-left: 20px;
+}
+.seeMore{
+     text-align: center;
+}

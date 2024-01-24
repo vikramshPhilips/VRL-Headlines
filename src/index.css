@@ -5,6 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   
+  /* Adding new */
+  height: 100vh;
+  background: linear-gradient(120deg,#0E5FD8 100%,#52E5E7 10%);
+
+  /*background-image: linear-gradient(135deg, #52E5E7 10%, #130CB7 100%);*/
+  /* background-image: linear-gradient(135deg, #071952 10%, #088395 100%); */
+  /* background: linear-gradient(to top left, #0E5FD8 80%, #fbcfcf 10%); */
+
 }
 
 code {

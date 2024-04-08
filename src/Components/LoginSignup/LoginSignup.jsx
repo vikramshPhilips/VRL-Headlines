@@ -1,4 +1,4 @@
-import React, {  useState } from 'react'
+import React, {  useContext, useState } from 'react'
 import './LoginSignup.css'
 import {useForm} from 'react-hook-form'
 /* Importing the Images that are in assests
@@ -18,7 +18,7 @@ import warningImage from '../Assets/warning.png'
 
 import Homepage from '../Homepage'
 
-
+import Credentials_Context from '../../Context/Credentials/context'
 
 const LoginSignup = () => {
 
@@ -29,6 +29,7 @@ const LoginSignup = () => {
     # Note this variable is passed in html 
     */
     const [heading,setHeading]= useState("Log In");
+    const [mySessionCred,updateSessionCredentials]= useContext(Credentials_Context);
     
     const default_data={
         "Name":"",
@@ -129,6 +130,13 @@ const LoginSignup = () => {
             //ResetData();  
             console.log("Reset Success!");
             console.log(values); 
+
+
+            // Put Value in context 
+            updateSessionCredentials("name",values.Name);
+            updateSessionCredentials("email",values.Useremail);
+            updateSessionCredentials("passwd",values.Passwd);
+            console.log(mySessionCred);
 
             alert("Register Success!");
             

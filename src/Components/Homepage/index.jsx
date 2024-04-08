@@ -24,6 +24,10 @@ const Homepage = (props) => {
                   <div className='title_item'><p onClick={logOut}>Log Out</p> </div>
             </div>
             <h1 className='Title'> Welcome To <span> VRL </span>News</h1>
+            
+            <div className='slideshow'>
+                 <div className='Slide'></div>
+            </div>
     </div>
   )
 }
